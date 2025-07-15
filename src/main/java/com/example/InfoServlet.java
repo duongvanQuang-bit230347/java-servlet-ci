@@ -13,9 +13,11 @@ public class InfoServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<h2>Thông tin nhóm:</h2>");
         out.println("<ul>");
-        out.println("<li>Nguyễn Văn A - MSSV: 123</li>");
-        out.println("<li>Trần Thị B - MSSV: 456</li>");
-        out.println("<li>Lê Văn C - MSSV: 789</li>");
+        out.println("<li>Duong Van Quang - MSSV: 123</li>");
+        out.println("<li>Hoang Anh Tuan - MSSV: 456</li>");
+        out.println("<li>Nguyen Phu Trong - MSSV: 789</li>");
+        out.println("<li>Pham Minh Quan - MSSV: 789</li>");
+        out.println("<li>Le Cong Ton Thang - MSSV: 789</li>");
         out.println("</ul>");
     }
 }
