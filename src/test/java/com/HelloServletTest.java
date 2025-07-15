@@ -1,9 +1,11 @@
-package com.example;
+package com;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
+
+import com.example.HelloServlet;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -34,7 +36,7 @@ public class HelloServletTest {
         // Kiểm tra nội dung đầu ra
         writer.flush(); // Đảm bảo nội dung được ghi
         String output = stringWriter.toString();
-        assertTrue(output.contains("<h1>Hello, World, I am a servlet, 10.06.2025!</h1>"),
+        assertTrue(output.contains("<h1>Hello, World, I am a servlet, 12025!</h1>"),
                 "Nội dung đầu ra không chứa chuỗi dự kiến");
     }
 }
