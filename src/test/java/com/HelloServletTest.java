@@ -35,7 +35,7 @@ public class HelloServletTest {
         // Check output content
         writer.flush();
         String output = stringWriter.toString();
-        assertTrue(output.contains("<h1>Hello, World, I am a servlet, chú ý nhánh của fr17.06.2025!</h1>"),
+        assertTrue(output.contains("<h1>Hello, World, I am a servlet, chú ý nhánh sss của fr17.06.2025!</h1>"),
                 "Output does not contain expected heading");
         assertTrue(output.contains("<p>Alo alo</p>"),
                 "Output does not contain expected paragraph");
