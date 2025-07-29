@@ -13,7 +13,7 @@ public class HelloServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         out.println("<h1>Hello, World, I am a servlet , 10.06.2025!</h1>");
-	out.println("<h1 style='color: red;'>Hello từ Java Dev 1</h1>");
+	
 
     }
 }
