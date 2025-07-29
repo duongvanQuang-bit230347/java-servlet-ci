@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        out.println("<h1>Hello, World, I am a servlet,chú ý nhánh củassss git cmmmmmm -15.07.2025!</h1>");
+        out.println("<h1>Hello, World, I am a servlet,chú ý nhánh củassss git cmm -15.07.2025!</h1>");
 out.println("<h2>Hello, World</h2>");
     }
 }
