@@ -19,5 +19,6 @@ public class InfoServlet extends HttpServlet {
         out.println("<li>Pham Minh Quan - MSSV: 789</li>");
         out.println("<li>Le Cong Ton Thang - MSSV: 789</li>");
         out.println("</ul>");
+	out.println("<h1 style='color: green;'>Sửa bởi Java Dev 2 - feature-jv2</h1>");
     }
 }
