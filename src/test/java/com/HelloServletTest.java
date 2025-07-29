@@ -2,8 +2,6 @@ package com;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.Test;
 import org.mockito.Mockito;
 
