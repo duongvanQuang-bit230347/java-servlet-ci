@@ -4,7 +4,7 @@ name: Java CI/CD with Maven - Build and Deploy WAR
 
 on:
   push:
-    branches: [main]
+    branches: [feature-jv1]
     paths:
       - "src/main/**"
       - "src/test/**"
